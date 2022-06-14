@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form id="form__submit" action="form.php" method="post">
+        <label>Message: </label><br />
+        <input type="text" id="form_message" /><br />
+        <label>Filename: </label><br />
+        <input type="text" id="filename" /><br />
+
+
+        <a href="#" onclick="submitForm()">Give code</a>
+    </form>
+
+    <div><p id="result"></p></div>
+<script type="text/javascript">
+
+	function submitForm() {
+		const d1 = new Date().getFullYear();
+		const d2 = new Date().getMonth();
+		const d3 = new Date().getDate();
+		filename = document.getElementById("filename").value;
+		message = document.getElementById("form_message").value;
+		if (filename == "#"){
+					console.log(filename)
+		elem2 = "&lt;p class="+"'" +"card-text"+ "'"+ "&gt;&lt;a href="+"'"+"#"+"'"+" class="+"'linked"+" "+ "bullet'"+"&gt;"+message+"&lt;/a&gt;&lt;/p&gt;"
+
+
+
+		elem = "&lt;strong&gt;"+d3+"/"+d2+"/"+d1+" :  &lt;/strong&gt;&lt;a href="+"'"+"#'"+"&gt;"+d3+"/"+d2+"/"+d1 +" "+message+"&lt;/a&gt;&lt;br&gt;";
+
+
+		}else if (filename != "#"){
+
+		
+		elem2 = "&lt;p class="+"'" +"card-text"+ "'"+ "&gt;&lt;a href="+"'"+"Assets&#92;pdfs&#92;2022-23&#92;"+filename+"'"+" class="+"'linked"+" "+ "bullet'"+"&gt;"+d3+"/"+d2+"/"+d1 +" "+message+"&lt;/a&gt;&lt;/p&gt;"
+
+
+
+		elem = "&lt;strong&gt;"+d3+"/"+d2+"/"+d1+" :  &lt;/strong&gt;&lt;a href="+"Assets&#92;pdfs&#92;"+d1+"-"+(parseInt(d1)+1-2000)+"&#92;"+filename+"&gt;"+message+"&lt;/a&gt;&lt;br&gt;";}
+
+
+		document.getElementById("result").innerHTML= elem2 + "<br><br><br>" +elem;
+		console.log("done")
+	}
+
+</script>
+</body>
+</html>

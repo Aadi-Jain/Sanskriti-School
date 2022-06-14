@@ -1,0 +1,541 @@
+
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Curriculum | Sanskriti School</title>
+
+
+<link rel="icon" href="Assets/photos/logohead.png" type="image/gif" sizes="6x6">
+<meta name="author" content="Aadi Jain">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Nav.css">
+<link rel="stylesheet" href="principals-message.css">
+
+<link rel="stylesheet" href="mob-nav.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="tabs.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3 .5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preload" as="font" href="Assets/fonts/EnglishTowne.ttf" type="font/ttf" crossorigin="anonymous">
+
+ <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+  <script async src="https://cse.google.com/cse.js?cx=006652465317642267315:optcjzyfcw4"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="Nav.js"></script>
+<style type="text/css">
+	
+
+#hamburger:focus{
+	color: white;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.borderex { 
+  border-style: solid;
+  border-color: #287EC7;
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  width: 70%;
+  font-family: Montserrat;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tablinks{
+	background-color: #e6e6e67a !important;
+
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #cecbce78 !important;
+ border-bottom: 1px #cecbce78 !important;
+ font-weight: 800;
+ text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+
+	background-color: #cecbce78 !important;
+	width: 70%;
+  display: none;
+  padding: 20px 30px;
+  border: none;
+  border-top: none;
+  border-radius: 5px;
+  border-top-left-radius: 0px !important;
+  padding-bottom: 20px;
+  text-align:left;
+font-family: Montserrat;
+}
+.tab-heading{
+	border-bottom: 1px solid black; 
+}
+@media screen and (max-width: 800px) {
+    #desktop{
+		display: none;
+
+	}
+	#myTopnav{
+		display: block;
+	}
+	.borderex { 
+  border-style: solid;
+  border-color: #287EC7;
+}
+.tab-heading{
+	border-bottom: 1px solid black;     font-size: 17px;
+
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  font-family: Montserrat;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 12px;
+  transition: 0.3s;
+  font-size: 13px;
+}
+.tablinks{
+	background-color: #e6e6e67a !important;
+
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #cecbce78 !important;
+ border-bottom: 1px #cecbce78 !important;
+ font-weight: 800;
+ color: black;
+ text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+
+	background-color: #cecbce78 !important;
+	width: 150%;
+  display: none;
+  padding: 35px 20px;
+  border: none;
+  border-top: none;
+  border-radius: 5px;
+  border-top-left-radius: 0px !important;
+    padding-bottom: 20px;
+    text-align:left;
+font-family: Montserrat;
+}
+}
+.text{
+	margin-bottom: 20px !important;
+}
+
+a{
+  color: black;
+}
+center:hover{
+  text-decoration-color: black;
+}
+</style>
+</head>
+<body>
+<header>    <div id="navbarblock"></div>
+<script type="text/javascript"> document.getElementById("navbarblock").innerHTML = codeBlock;</script>
+
+
+<div class="welcome-head cat-head">
+  
+    <h1 id="sanskriti" class="subcat2">Curriculum</h1><center><hr style="background-color: white !important; width: 85%;">
+    <div id="text1">
+      <p>Junior, Middle and Senior School Curriculum 2020 - 2021<br>
+
+</p>
+
+</div>
+
+
+</header>
+
+<center class="bg" style="overflow-y: auto ; overflow-x: auto;">
+  <div class="row wide">
+
+ </p>
+
+
+  </div>
+ 
+
+
+</div>
+<div class="tab" >
+  <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'London')">Junior School</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Middle School</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Senior School</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h1 class="tab-heading">Junior School</h1><br><br>
+  <p class="text">The Junior School curriculum is child-centered and activity based so that learning is made fun and enjoyable.<br>
+Classes I – III have no examination.<br>
+Periodic assignments are given to class III which are graded.<br>
+Classes IV-V appear for their weekly unit tests.<br>
+Assessment for classes IV and V is based purely on the grading system</p>
+
+ <h1 class="tab-heading">Smart Skill</h1><br><br>
+  <p class="text"><table class="nowrap text">
+              <tbody>
+           <tr>  
+               <td width="20%"><center>Class III</center></td>    
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class-III Maths Learning Steps.pdf" target="blank" target="_blank"><center>Maths (Learning Steps)</center></a></td>
+                  <td width="20%"> <a href="Assets/pdfs/2020-21/Class-III. Maths Learning Ladder.pdf" target="blank" target="_blank"><center>Maths ( Learning Ladder)</center></a> </td>
+                  <td width="20%"><a href="Assets/pdfs/2020-21/HIndi- CLass III.pdf" target="blank" target="_blank"><center>Hindi</center></a></td>
+                  <td width="20%"><a href="Assets/pdfs/2020-21/English -Class III.pdf" target="blank" target="_blank"><center>English</center></a></td> 
+            </tr>
+            <tr>
+           <td width="20%"><center>Class IV</center></td>    
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class IV- Learning Steps.pdf" target="blank" target="_blank"><center>Maths (Learning Steps)</center></a></td>
+                  <td width="20%"> <a href="Assets/pdfs/2020-21/Class IV - Learning Ladder.pdf" target="blank" target="_blank"><center>Maths ( Learning Ladder)</center></a> </td>
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class IV Hindi.pdf" target="blank" target="_blank"><center>Hindi</center></a></td>
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class IV English.pdf" target="blank" target="_blank"><center>English</center></a></td></tr>
+              <tr> 
+              <td width="20%"><center>Class V</center></td>    
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class - V- Maths (Learning Steps).pdf" target="blank" target="_blank"><center>Maths (Learning Steps)</center></a></td>
+                  <td width="20%"> <a href="Assets/pdfs/2020-21/Class -V - Maths ( Learning Ladder).pdf" target="blank" target="_blank"><center>Maths ( Learning Ladder)</center></a> </td>
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class -V - Hindi.pdf" target="blank" target="_blank"><center>Hindi</center></a></td>
+                  <td width="20%"><a href="Assets/pdfs/2020-21/Class -V - English.pdf" target="blank" target="_blank"><center>English</center></a></td>
+ 
+                </tr>
+               </tbody>
+           </table></p>
+
+
+
+
+
+
+
+
+ <h1 class="tab-heading">Monthwise Curriculum Plan</h1><br><br>
+  <p class="text">
+    <table class="nowrap text">
+              <tbody>
+           <tr>
+                  <td style="width:12.5%;">April-May 2020</td>                
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/1 Nursery.pdf" target="blank" target="_blank">Class Nursery</a></td>
+                  <td style="width:12.5%;"> <a href="Assets/pdfs/2020-21/2 prep.pdf" target="blank" target="_blank">Class Prep</a> </td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/3 cl 1.pdf" target="blank" target="_blank">Class I</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/4 cl 2.pdf" target="blank" target="_blank">Class II</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/5 cl 3.pdf" target="blank" target="_blank">Class III</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/6 cl 4.pdf" target="blank" target="_blank">Class IV</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/7 cl5.pdf" target="blank" target="_blank">Class V</a></td>
+                </tr>
+          <tr>
+                  <td style="width:12.5%;">Suggested activities<br> : April 2020</td>                
+                  <!--<td style="width:12.5%;"><a href="#" target="_blank">Class Nursery</a></td>-->
+                  <td style="width:12.5%;"> <a href="Assets/pdfs/2020-21/Suggested activities for Class Prep.pdf" target="blank" target="_blank">Class Prep</a> </td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/Suggested activities for Class 1.pdf" target="blank" target="_blank">Class I</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/Suggested activities for Class 2.pdf" target="blank" target="_blank">Class II</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/Suggested activities for Class 3.pdf" target="blank" target="_blank">Class III</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/Suggested activities for Class 4.pdf" target="blank" target="_blank">Class IV</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/Suggested activities for Class 5.pdf" target="blank" target="_blank">Class V</a></td>
+                </tr>
+           <tr>
+                  <td style="width:12.5%;">July 2020</td>                
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/1 nur.pdf" target="blank" target="_blank">Class Nursery</a></td>
+                  <td style="width:12.5%;"> <a href="Assets/pdfs/2020-21/2 Prep.pdf" target="blank" target="_blank">Class Prep</a> </td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/3 cl 1.pdf" target="blank" target="_blank">Class I</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/4 cl 2.pdf" target="blank" target="_blank">Class II</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/5 cl 3.pdf" target="blank" target="_blank">Class III</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/6 cl 4.pdf" target="blank" target="_blank">Class IV</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/7 cl 5.pdf" target="blank" target="_blank">Class V</a></td>
+                </tr>
+           <tr>
+                  <td style="width:12.5%;">August 2020</td>                
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/1 nur.pdf" target="blank" target="_blank">Class Nursery</a></td>
+                  <td style="width:12.5%;"> <a href="Assets/pdfs/2020-21/2 Prep.pdf" target="blank" target="_blank">Class Prep</a> </td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/3 cl 1.pdf" target="blank" target="_blank">Class I</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/4 cl 2.pdf" target="blank" target="_blank">Class II</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/5 cl 3.pdf" target="blank" target="_blank">Class III</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/6 cl 4.pdf" target="blank" target="_blank">Class IV</a></td>
+                  <td style="width:12.5%;"><a href="Assets/pdfs/2020-21/7 cl 5.pdf" target="blank" target="_blank">Class V</a></td>
+                </tr>
+ 
+              </tbody>
+                
+              </table>
+</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1 class="tab-heading">Middle School</h1><br>
+  <p class="text">A happy, stimulating, secure learning environment ensures happy, sensitive, life- long learners who will be change makers in society.<br><br>
+
+At Sanskriti School, the middle school years (from classes 6 to 8) provide the foundation on which young learners build a promising and fulfilling future. This phase successfully provides for the emotional, physical and social well being of young minds who in turn will be self -aware, creative, empathetic listeners and effective communicators.<br><br>
+
+Classroom teaching is supplemented with theatre activities, hands on projects and technology. The recent introduction of Google Chromebooks in the classroom has added an exciting dimension to ICT-integrated education and has opened up immense possibilities for the creative teacher as well as the learner.<br><br>
+
+The coming up of the state of the art Science lab has taken scientific temper and spirit of enquiry to a new level and students eagerly engage in learning science concepts through experiments conducted in this ultra modern set up. Field trips go hand in hand with laboratory experiments and augment learning. The life skills imbibed during these trips are indeed enduring lessons of life itself.<br><br>
+
+The Class Assemblies as well as Special Assemblies offer ample opportunity for each child to go up on stage and showcase her/his talent while keeping in mind the intrinsic values of their august institution.<br><br>
+
+‘Explore’ is yet another exciting programme offered to grade 7. This module uses an interactive methodology and latest technology to empower students by placing the power of learning in the hands of the learners while they work in groups, exploring and connecting textbook concepts to real life situations.<br><br>
+
+Class 8 gets introduced to a lifeskill programme that rests on the tenets of ‘leadership’. Students are made to understand the multidimensional concepts of leadership through experiential learning.<br><br>
+
+All these activities and programmes contribute towards nurturing 21st century learners who will be equipped to face the world of tomorrow. As a part of our holistic approach, we also aim at fostering in these students a love for nature and an appreciation of the beauty around us by introducing gardening to the young children of class 6. It is indeed a delight to watch little hands digging up the soil, sowing seeds and watering them joyfully regardless of the cold or the scorching sun. It is an activity which uplifts the soul and humbles the mind, paying a tribute to the magnificence of Mother Nature.<br><br>
+
+Last but definitely not the least is the mental health programme that is offered. Through the workshops conducted, it provides the emotional anchor to keep our young students well rooted, confident and happy members of society.<br><br>
+
+The Middle School of Sanskriti provides a challenging and engaging curriculum in which every student develops into a well- grounded young adult.</p> <br><br>
+
+
+
+
+ <h1 class="tab-heading">Holiday Homework</h1><br>
+
+
+  <table class="text">
+<tbody><tr>
+          <td style="width: 23%; text-align: left;">
+Summer Break 2022-2023</td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/Grade%20VI-Holiday%20Homework-2022-23.pdf" target="blank">Grade VI</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/Grade%20VII-Holiday%20Homework-2022-23.pdf" target="blank">Grade VII</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/Grade%20VIII-Holiday%20Homework-2022-23.pdf" target="blank">Grade VIII</a></td>
+         
+        </tr>
+
+        <br>
+</tbody></table>
+
+
+
+
+<h1 class="tab-heading">Monthwise Curriculum Plan</h1><br>
+
+<table class="text">
+           <tbody><tr>
+            <td style="width: 30%;">July-Sept 2020</td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan VI July -Sept 2020.pdf" target="blank">Grade VI</a></td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan Grade 7 July to Sep(2020-21).pdf" target="blank">Grade VII</a></td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum plan VIII July -Sept 2020-21.pdf" target="blank">Grade VIII</a></td>
+          </tr>
+           <tr>
+            <td style="width: 30%;">May 2020</td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan Grade VI May 2020-21.pdf" target="blank">Grade VI</a></td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan GradeVII May 2020-21.pdf" target="blank">Grade VII</a></td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan Grade  VIII 2020-21.pdf" target="blank">Grade VIII</a></td>
+          </tr>
+           <tr>
+            <td style="width: 30%;">April 2020</td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan April Grade VI 2020-21.pdf" target="blank">Grade VI</a></td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan April Grade VII (2020-21).pdf" target="blank">Grade VII</a></td>
+            <td style="width: 30%;"><a href="Assets/pdfs/2020-21/Curriculum Plan April Grade VIII 2020-21.pdf" target="blank">Grade VIII</a></td>
+          </tr>
+
+       
+        </tbody></table>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+ <h1 class="tab-heading">Senior School</h1><br>
+  <p class="text">At senior school the young adults hone their academic and extra-curricular skills to prepare for their journey into the world outside the protective environs of the school. Innovative and effective teaching methodologies are used by the teachers with focus on the constantly changing educational pedagogy which enhances academic achievement. Apart from skills and knowledge due attention is also paid to inculcating values which will stand them in good stead in life. Our unique system of instituting a class teacher’s interactive period every morning is used to ensure that our students become sensitive and sensible citizens of the world. We are indeed proud that our senior students not only prove their mettle in the academic arena in India and abroad but also distinguish themselves with their strength of character.</p> <BR><br>
+
+  <h1 class="tab-heading">Holiday Homework</h1><br>
+
+
+  <table class="text">
+<tbody><tr>
+          <td style="width: 23%; text-align: left;">
+Summer Break 2022-2023</td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/Grade%20IX-Holiday%20Homework-2022-23.pdf" target="blank">Grade IX</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/Grade%20X-Holiday%20Homework-2022-23.pdf" target="blank">Grade X</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/#" target="blank">Grade XI</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2022-23/Grade%20XII-Holiday%20Homework-2022-23.pdf" target="blank">Grade XII</a></td>
+        </tr>
+
+        <br>
+</tbody></table>
+  <h1 class="tab-heading">Monthwise Plan</h1><br>
+  <table class="text">
+<tbody><tr>
+          <td style="width: 23%">July-Sept 2020</td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan  IXJuly - Sept 2020.pdf" target="blank">Grade IX</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan X  July -Sept 2020.pdf" target="blank">Grade X</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan XI _July-Sept(2020-21).pdf" target="blank">Grade XI</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan XII July-Sept.pdf" target="blank">Grade XII</a></td>
+        </tr>
+<tr>
+          <td>May 2020</td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan Grade IX MAY 2020-21.pdf" target="blank">Grade IX</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan Grade X  MAY  2020 -21.pdf" target="blank">Grade X</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan  April-May Grade XI (20-21).pdf" target="blank">Grade XI</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan Grade  XII May 2020-21.pdf" target="blank">Grade XII</a></td>
+        </tr>
+<tr>
+          <td style="width: 23%">April 2020</td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan April Grade IX 2020-21.pdf" target="blank">Grade IX</a></td>
+          <td style="width:23%"><a href="Assets/pdfs/2020-21/Grade IX Curriculum April Plan 2020-21.pdf" target="blank">Grade X</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan  April-May Grade XI (20-21).pdf" target="blank">Grade XI</a></td>
+          <td style="width: 23%"><a href="Assets/pdfs/2020-21/Curriculum Plan Mar Apr XII  2020-21.pdf" target="blank">Grade XII</a></td>
+        </tr> 
+ 
+
+      </tbody></table>
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}document.getElementById("defaultOpen").click();
+</script>
+</center>
+
+
+<!--Grid row-->
+<div class="row"  id='foot' style="background: #0c0c38;">
+
+  <!--Grid column-->
+ 
+
+  <!--Grid column-->
+  <div class="col-md-4 mb-4">
+
+    <!--Card-->
+    <div class="card card-cascade narrower" id="map" style="border: none !important;">
+
+      <!--Card image-->
+     
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+
+        <!--Google map-->
+        <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112081.9117595009!2d77.20468465697103!3d28.61298160490856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d6b4a5aaaab%3A0xefbb0b157c97e378!2sSanskriti%20School%2C%20Chanakyapuri!5e0!3m2!1sen!2sin!4v1596640483793!5m2!1sen!2sin" class="co"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+
+</div>
+      <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <div class="col-md-4 mb-4">
+<div class="card card-cascade narrower" id="map" style="border: none !important;">
+
+      <!--Card image-->
+     
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade ">
+    <!--Card-->
+    <h3>ADDRESS</h3><hr>
+    <p>Sanskriti School<br>
+
+Dr. S. Radhakrishnan Marg<br>
+
+Chanakyapuri<br>
+
+New Delhi<br>
+
+Delhi - 110021<br></p><br>
+    <h3>PHONE</h3><hr>
+    <p>+91-11-26883335<br>
++91-11-26883336<br>
++91-11-26883337<br>
++91-11-26883338<br></p>
+    <!--/.Card-->
+</div>
+      <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+  </div>
+  <div class="col-md-4 mb-4">
+
+    <!--Card--><div class="card card-cascade narrower" id="map" style="border: none !important;">
+
+      <!--Card image-->
+     
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade ">
+    <h3>EMAIL</h3><hr>
+    <p>school@sanskritischool.edu.in<br>
+principal@sanskritischool.edu.in<br>
+it@sanskritischool.edu.in<br>
+junior@sanskritischool.edu.in<br>
+middle@sanskritischool.edu.in<br>
+senior@sanskritischool.edu.in<br>
+transport@sanskritischool.edu.in<br>
+estate@sanskritischool.edu.in</p>
+    <!--/.Card-->
+
+  </div></div>
+      <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+  <!--Grid column-->
+
+</div>
+<div id="credit">© 2020 Sanskriti School     •   <span style = "opacity:0.5;font-size:13px;">@ ProjectBeta</span></div>
+<!--Grid row-->
+</body>
+</html> 
